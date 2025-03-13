@@ -1,4 +1,4 @@
-package matt.book.data.client.call.account.chapter;
+package matt.book.data.client.call.chapter;
 
 import com.google.gson.Gson;
 import matt.book.data.client.message.chapter.CreateChapterRequest;
