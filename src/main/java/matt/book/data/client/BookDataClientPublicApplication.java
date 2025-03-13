@@ -1,13 +1,18 @@
 package matt.book.data.client;
 
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BookDataClientPublicApplication {
+public class BookDataClientPublicApplication implements CommandLineRunner {
 
     public static void main(String[] args) {
         SpringApplication.run(BookDataClientPublicApplication.class, args);
     }
 
+    @Override
+    public void run(String... args) throws Exception {
+
+    }
 }
