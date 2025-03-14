@@ -77,7 +77,13 @@ public class BookDataClientPublicApplication implements CommandLineRunner {
 
         List<Book> retrievedBookListSortedPaged = bookDataClientSQL.getAllBooksSortedPaged("creationTime",
                 0, 1000, AUTH_TOKEN);
-    }
 
+        List<Chapter> chapterList = bookDataClientSQL.getChaptersByBookNamePaged(
+                createdBook.getBookName(),
+                0,
+                10000,
+                "auth token"
+        );
+    }
 
 }
