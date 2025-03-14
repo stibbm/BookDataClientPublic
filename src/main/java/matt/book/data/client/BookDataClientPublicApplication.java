@@ -46,6 +46,7 @@ public class BookDataClientPublicApplication implements CommandLineRunner {
                 AUTH_TOKEN
         );
 
+
         Book retrievedBook = bookDataClientSQL.getBookByBookName(createdBook.getBookName(), AUTH_TOKEN);
 
         Chapter createdChapter = bookDataClientSQL.createChapter(
