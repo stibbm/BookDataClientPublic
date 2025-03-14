@@ -41,7 +41,7 @@ public class BookDataClientPublicApplication implements CommandLineRunner {
                 BOOK_LANGUAGE_ONE,
                 BOOK_VIEWS_ONE,
                 BOOK_TAGS_ONE,
-                Files.readAllBytes(Path.of(IMAGE_PATH_ONE))
+                Files.readAllBytes(Path.of(IMAGE_PATH_ONE)),
                 IMAGE_ONE_FILE_TYPE,
                 AUTH_TOKEN
         );
